@@ -1,8 +1,8 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 import os
 dir_path = os.path.dirname(os.path.realpath(__file__))
 import sys
-sys.path.insert(1, os.path.join(dir_path, 'autoref'))
+sys.path.insert(1, os.path.join(dir_path, 'goopy'))
 from __version__ import __version__
 
 def read_requirements():
