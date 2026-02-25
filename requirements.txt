@@ -1,0 +1,6 @@
+setuptools
+numpy
+scipy
+matplotlib
+packaging
+scikit-image
